@@ -17,6 +17,5 @@ else
 	echo "Cloning $REPO_TO_LINT"
 	mkdir cloned
 	cd cloned
-	git clone "$REPO_TO_LINT" .
 	npx awesome-lint
 fi
